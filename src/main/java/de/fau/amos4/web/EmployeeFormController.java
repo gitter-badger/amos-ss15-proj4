@@ -84,7 +84,7 @@ public class EmployeeFormController
         // If the employee already has a primary key: Update
         Employee newOrUpdatedEmployee = employeeRepository.save(employee);
 
-        // Setup modell and return view
+        // Setup model and return view
         model.addAttribute("EmployeeId", newOrUpdatedEmployee.getId());
         return "EmployeeSubmit";
     }
@@ -242,10 +242,17 @@ public class EmployeeFormController
         return mav;
     }
     @RequestMapping("/EmployeeLogin")
-    public ModelAndView EmployeeLogin()
+    public ModelAndView ClientLogin()
     {
         ModelAndView mav = new ModelAndView();
-        mav.setViewName("EmployeeLogin");
+        mav.setViewName("ClientLogin");
+        return mav;
+    }
+    @RequestMapping("/FrontPage")
+    public ModelAndView FrontPage()
+    {
+        ModelAndView mav = new ModelAndView();
+        mav.setViewName("FrontPage");
         return mav;
     }
     

@@ -1,0 +1,41 @@
+﻿Merge branch 'master' of https://github.com/JOBAA/amos-ss15-proj4
+
+Conflicts:
+	src/main/java/de/fau/amos4/web/EmployeeFormController.java
+	src/main/java/de/fau/amos4/web/LoginFormController.java
+	src/main/resources/messages_de.properties
+	src/main/resources/messages_en.properties
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 5 and 19 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   README.md
+#	modified:   src/main/java/de/fau/amos4/model/Client.java
+#	modified:   src/main/java/de/fau/amos4/model/Employee.java
+#	modified:   src/main/java/de/fau/amos4/service/EmployeeRepository.java
+#	modified:   src/main/java/de/fau/amos4/web/EmployeeFormController.java
+#	modified:   src/main/java/de/fau/amos4/web/LoginFormController.java
+#	new file:   src/main/resources/example_data.sql
+#	modified:   src/main/resources/messages_de.properties
+#	modified:   src/main/resources/messages_en.properties
+#	modified:   src/main/resources/templates/EmployeeList.html
+#	new file:   src/main/resources/templates/WrongPassword.html
+#	modified:   src/test/java/de/fau/amos4/test/EmployeeTest.java
+#
+# Untracked files:
+#	kahea2f3.jxi.txt
+#
+
